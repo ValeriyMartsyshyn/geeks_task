@@ -1,0 +1,21 @@
+#--------------------Task 9
+
+import numpy
+a=numpy.array([[2, 4, 6, 8, 10],
+                  [10, 3, 30, 4, 5],
+                  [3, 2, 5, 100, 5],
+                  [9, 8, 3, 6, 4] 
+                 ])
+X = 6
+print("Original:\n", a)
+output  = numpy.where(numpy.any(a > X,
+                                axis = 1))
+print("Result:\n", output)
+
+
+#--------------------Task 10
+
+import numpy as np
+a = np.zeros((4, 4), int)
+np.fill_diagonal(a, 56)
+print(a)
