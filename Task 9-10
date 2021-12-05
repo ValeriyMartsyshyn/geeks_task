@@ -1,0 +1,16 @@
+#--------------------Task 9
+
+import numpy as np
+x = np.array([[1, 3, 5, 7], [2, 4, 6, 8],[8, 6, 4, 2],[7, 5, 3, 1]])
+print("original:")
+print(x)
+print("bigger than 5", x[x>5])
+
+
+#--------------------Task 10
+
+import numpy as np
+a = np.zeros((4, 4), int)
+np.fill_diagonal(a, 56)
+print(a)
+
